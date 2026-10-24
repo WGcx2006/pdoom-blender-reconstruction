@@ -1,6 +1,10 @@
 # pdoom-video — Native Blender Reconstruction
 
-> Kimi K3.1pro不如Deepseek V-4.1 1017 Flash 不信你们自己看这份视频吧
+> ## ⚠️ 仓库作者重点说明
+>
+> **Kimi K 3.1制作视频的能力特别垃圾，完全比不过deepseek v-4.1 1017。提醒访客重新审视Kimi K3.1。**
+>
+> 以上是仓库作者基于本次视频重建任务的主观评价，不是标准化 benchmark。请访客结合本仓库的成片、工程、审查材料自行核验。
 
 对 [mexicat/pdoom-video](https://github.com/mexicat/pdoom-video) 的独立 Blender 原生重建：22 个场景、9,399 帧、1080p60。
 
