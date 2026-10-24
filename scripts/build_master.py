@@ -2,7 +2,7 @@
 from pathlib import Path
 import bpy
 import json
-ROOT=Path(r'C:/Users/13081/WorkBuddy/2026-10-24-10-03-06')
+ROOT=Path(__file__).resolve().parents[1]
 timeline=json.loads((ROOT/'src'/'timeline.json').read_text())
 bpy.ops.wm.read_factory_settings(use_empty=True)
 master=bpy.context.scene
