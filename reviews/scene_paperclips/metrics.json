@@ -1,0 +1,38 @@
+[
+  {
+    "valid": true,
+    "mae": 6.356329089506173,
+    "rmse": 22.45655456319589,
+    "ssim": 0.8542133334077241,
+    "ref_mean": 12.433510480967078,
+    "ours_mean": 11.8682220936214,
+    "time": 96.7,
+    "frame": 5802,
+    "reference": "C:\\Users\\13081\\WorkBuddy\\2026-10-24-10-03-06\\reference\\renders\\stills\\f_0096.70.png",
+    "ours": "C:\\Users\\13081\\WorkBuddy\\2026-10-24-10-03-06\\renders\\preview\\paperclips\\005802.png"
+  },
+  {
+    "valid": true,
+    "mae": 35.72073961548354,
+    "rmse": 61.24406565455912,
+    "ssim": 0.24463457782833395,
+    "ref_mean": 36.72288274819959,
+    "ours_mean": 21.62979423868313,
+    "time": 99.32,
+    "frame": 5959,
+    "reference": "C:\\Users\\13081\\WorkBuddy\\2026-10-24-10-03-06\\reference\\renders\\stills\\f_0099.32.png",
+    "ours": "C:\\Users\\13081\\WorkBuddy\\2026-10-24-10-03-06\\renders\\preview\\paperclips\\005959.png"
+  },
+  {
+    "valid": true,
+    "mae": 30.683184960133744,
+    "rmse": 63.57566228446774,
+    "ssim": 0.4148709578195327,
+    "ref_mean": 22.78236802340535,
+    "ours_mean": 30.69382716049383,
+    "time": 101.95,
+    "frame": 6117,
+    "reference": "C:\\Users\\13081\\WorkBuddy\\2026-10-24-10-03-06\\reference\\renders\\stills\\f_0101.95.png",
+    "ours": "C:\\Users\\13081\\WorkBuddy\\2026-10-24-10-03-06\\renders\\preview\\paperclips\\006117.png"
+  }
+]

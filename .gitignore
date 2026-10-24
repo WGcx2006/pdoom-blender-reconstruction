@@ -1,0 +1,23 @@
+# Reference repository, third-party source media and analysis data
+reference/
+assets/audio/
+assets/data/
+assets/generated/
+
+# Large intermediate renders and local work state
+renders/
+.workbuddy/
+
+# Smoke-test files
+src/scenes/_smoke.blend
+src/builders/build_smoke.py
+
+# Blender backups and Python caches
+*.blend1
+*.blend2
+__pycache__/
+*.pyc
+
+# OS/editor metadata
+.DS_Store
+Thumbs.db

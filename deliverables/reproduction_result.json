@@ -1,0 +1,34 @@
+{
+  "status": "completed_native_blender_reconstruction",
+  "video": "deliverables/pdoom_blender_1080p60.mp4",
+  "master": "src/pdoom_master.blend",
+  "scene_manifest": "deliverables/scene_manifest.json",
+  "scene_count": 22,
+  "blender_version": "5.2.2 LTS",
+  "render_engine": "BLENDER_EEVEE",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 60,
+  "frames": 9399,
+  "duration_seconds": 156.65,
+  "video_codec": "H.264 / libx264 CRF16",
+  "pixel_format": "yuv420p",
+  "color": "BT.709",
+  "audio": "AAC 320k stereo 48kHz",
+  "bytes": 86858555,
+  "sha256": "0f5af32a277ba965eefab857c0e5d5c12ea78989845b6b60cb97ae5596920492",
+  "sequence_check": "9399/9399 frames present; zero missing; zero invalid; 240 sampled non-black frames",
+  "encoded_review": "22 scene midpoints decoded from delivered MP4; no blackish midpoint",
+  "loop_source_mae": 0.0,
+  "loop_encoded_mae": 0.07806648662551441,
+  "reference_basis": "66 valid locally rendered stills at fixed commit fa164b74; not a full reference-video comparison",
+  "review": "reviews/full/review.json and reviews/full/encoded_contact_sheet.jpg",
+  "known_approximations": [
+    "Original GLSL/SDF detail is rebuilt with native Blender tube meshes, curves, procedural materials and editable typography",
+    "Some secondary lyric/layout and high-frequency engraving details are simplified",
+    "The reference auto-sampled short capture was stopped after more than one hour without a completed first clip"
+  ],
+  "local_use_only": "Original audio and lyrics are not covered by the repository MIT license; no public redistribution is made here"
+}

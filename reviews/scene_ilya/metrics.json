@@ -1,0 +1,38 @@
+[
+  {
+    "valid": true,
+    "mae": 25.740130208333333,
+    "rmse": 41.581023541703736,
+    "ssim": 0.43005364992842054,
+    "ref_mean": 12.543129822530863,
+    "ours_mean": 24.82778034979424,
+    "time": 131.69,
+    "frame": 7901,
+    "reference": "C:\\Users\\13081\\WorkBuddy\\2026-10-24-10-03-06\\reference\\renders\\stills\\f_0131.69.png",
+    "ours": "C:\\Users\\13081\\WorkBuddy\\2026-10-24-10-03-06\\renders\\preview\\ilya\\007901.png"
+  },
+  {
+    "valid": true,
+    "mae": 16.583632973251028,
+    "rmse": 40.63434140384938,
+    "ssim": 0.7467220130330693,
+    "ref_mean": 4.066633230452675,
+    "ours_mean": 17.095449459876544,
+    "time": 135.91,
+    "frame": 8155,
+    "reference": "C:\\Users\\13081\\WorkBuddy\\2026-10-24-10-03-06\\reference\\renders\\stills\\f_0135.91.png",
+    "ours": "C:\\Users\\13081\\WorkBuddy\\2026-10-24-10-03-06\\renders\\preview\\ilya\\008155.png"
+  },
+  {
+    "valid": true,
+    "mae": 2.9806471836419752,
+    "rmse": 15.773642948190373,
+    "ssim": 0.8907426870437863,
+    "ref_mean": 2.374218106995885,
+    "ours_mean": 1.8638798868312758,
+    "time": 140.13,
+    "frame": 8408,
+    "reference": "C:\\Users\\13081\\WorkBuddy\\2026-10-24-10-03-06\\reference\\renders\\stills\\f_0140.13.png",
+    "ours": "C:\\Users\\13081\\WorkBuddy\\2026-10-24-10-03-06\\renders\\preview\\ilya\\008408.png"
+  }
+]

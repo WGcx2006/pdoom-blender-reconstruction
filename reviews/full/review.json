@@ -1,0 +1,35 @@
+{
+  "reviewer": "main-agent",
+  "reference_commit": "fa164b74fd0b26a99375715b619c55b4a0fb3d05",
+  "reference_basis": "66 valid 1920x1080 start/middle/end stills from the locally rendered current main",
+  "gate_reviewed": [
+    "shoggoth",
+    "paperclips",
+    "ilya",
+    "outro"
+  ],
+  "review_method": [
+    "Read reference and Blender images directly",
+    "Compared same-time side-by-side contact sheets",
+    "Checked composition, visibility phases, typography, camera framing and narrative transitions",
+    "Rebuilt scenes and forced re-render after finding stale preview cache"
+  ],
+  "iterated_fixes": [
+    "Changed shoggoth from always-visible tentacles to mask-first, scan reveal, mask reframe and flatline exit",
+    "Changed paperclips from a static full grid to first-stroke drawing, timed lattice births and final lyric card",
+    "Restored Ilya local visibility tracks after broad room/stage visibility overrides; added legible theatre inscription and darkened closing room",
+    "Fixed outro visibility tracks so 1.00, formula text, NaN and Regenerate appear in sequence",
+    "Added the missing Loom continuation tree, candidate probabilities, MASK and Droste frames",
+    "Added render configuration hashes so changed blend files invalidate cached PNGs"
+  ],
+  "accepted_approximations": [
+    "Original GLSL/SDF raymarched detail is represented with native Blender curves, tube meshes, procedural materials and native animation rather than translated shaders",
+    "Some secondary lyric/layout details and high-frequency engraving are simplified for a complete native Blender render",
+    "Reference auto-sampled short capture was stopped after more than one hour without a first completed clip; no claim of a full reference-video comparison is made"
+  ],
+  "gate_status": "reviewed_and_iterated_native_blender_scenes",
+  "full_video_status": "completed_and_validated",
+  "final_validation": "1920x1080 / 60fps / 9399 frames / 156.650s / H.264 / BT.709 / AAC / full decode passed",
+  "loop_refinement": "Native opening cover and matching crop marks; source first/last MAE=0; encoded first/last MAE=0.078066 due to H.264 compression",
+  "final_encoded_contact_sheet": "reviews/full/encoded_contact_sheet.jpg"
+}

@@ -1,0 +1,7 @@
+{
+  "scene": "shoggoth",
+  "reviewed": false,
+  "pairs": 3,
+  "metrics": "metrics.json",
+  "notes": "Main agent must inspect images before sign-off."
+}
